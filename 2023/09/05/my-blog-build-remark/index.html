@@ -16,15 +16,15 @@
   <meta name="author" content="Sturdylee">
   <meta name="keywords" content="">
   
-    <meta name="description" content="参考资料 Hexo Docs：https:&#x2F;&#x2F;hexo.io&#x2F;zh-cn&#x2F;docs&#x2F; Hexo Fluid 用户手册：https:&#x2F;&#x2F;fluid-dev.github.io&#x2F;hexo-fluid-docs&#x2F; 白嫖GitHub Pages，轻松搭建个人博客_Hexo_LigaAI_InfoQ写作社区 hexojs&#x2F;awesome-hexo: A curated list of awesom">
+    <meta name="description" content="上传博客 新建文章  输入命令：hexo new “文章名称”  预览  输入命令（blog目录下使用git）：hexo s  确认无误后生成文件  输入命令：hexo g  部署到Github  输入命令：hexo d  疑难问题解决 Github port 443: Time out 1234567# 取消代理git config --global --unset http.proxygit">
 <meta property="og:type" content="article">
 <meta property="og:title" content="基于 Github Pages + Hexo 搭建个人博客">
 <meta property="og:url" content="https://sturdylee.github.io/2023/09/05/my-blog-build-remark/index.html">
 <meta property="og:site_name" content="物致派">
-<meta property="og:description" content="参考资料 Hexo Docs：https:&#x2F;&#x2F;hexo.io&#x2F;zh-cn&#x2F;docs&#x2F; Hexo Fluid 用户手册：https:&#x2F;&#x2F;fluid-dev.github.io&#x2F;hexo-fluid-docs&#x2F; 白嫖GitHub Pages，轻松搭建个人博客_Hexo_LigaAI_InfoQ写作社区 hexojs&#x2F;awesome-hexo: A curated list of awesom">
+<meta property="og:description" content="上传博客 新建文章  输入命令：hexo new “文章名称”  预览  输入命令（blog目录下使用git）：hexo s  确认无误后生成文件  输入命令：hexo g  部署到Github  输入命令：hexo d  疑难问题解决 Github port 443: Time out 1234567# 取消代理git config --global --unset http.proxygit">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2023-09-05T03:18:42.000Z">
-<meta property="article:modified_time" content="2023-09-05T09:39:19.234Z">
+<meta property="article:modified_time" content="2023-09-05T12:13:42.587Z">
 <meta property="article:author" content="Sturdylee">
 <meta property="article:tag" content="hexo">
 <meta property="article:tag" content="fluid">
@@ -223,7 +223,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          219 字
+          525 字
         
       </span>
     
@@ -235,7 +235,7 @@
         
         
           <!-- compatible with older versions-->
-          2 分钟
+          5 分钟
         
       </span>
     
@@ -285,11 +285,31 @@
             
               <div class="markdown-body">
                 
-                <h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><ul>
+                <h2 id="上传博客"><a href="#上传博客" class="headerlink" title="上传博客"></a>上传博客</h2><p> 新建文章</p>
+<blockquote>
+<p>输入命令：hexo new “文章名称”</p>
+</blockquote>
+<p>预览</p>
+<blockquote>
+<p>输入命令（blog目录下使用git）：hexo s</p>
+</blockquote>
+<p>确认无误后生成文件</p>
+<blockquote>
+<p>输入命令：hexo g</p>
+</blockquote>
+<p>部署到Github</p>
+<blockquote>
+<p>输入命令：hexo d</p>
+</blockquote>
+<h2 id="疑难问题"><a href="#疑难问题" class="headerlink" title="疑难问题"></a>疑难问题</h2><p>解决 Github port 443: Time out</p>
+<figure class="highlight dsconfig"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><code class="hljs dsconfig"><span class="hljs-comment"># 取消代理</span><br><span class="hljs-string">git</span> <span class="hljs-string">config</span> <span class="hljs-built_in">--global</span> <span class="hljs-built_in">--unset</span> <span class="hljs-string">http</span>.<span class="hljs-string">proxy</span><br><span class="hljs-string">git</span> <span class="hljs-string">config</span> <span class="hljs-built_in">--global</span> <span class="hljs-built_in">--unset</span> <span class="hljs-string">https</span>.<span class="hljs-string">proxy</span><br><br><span class="hljs-comment"># 查看代理</span><br><span class="hljs-string">git</span> <span class="hljs-string">config</span> <span class="hljs-built_in">--global</span> <span class="hljs-built_in">--get</span> <span class="hljs-string">http</span>.<span class="hljs-string">proxy</span><br><span class="hljs-string">git</span> <span class="hljs-string">config</span> <span class="hljs-built_in">--global</span> <span class="hljs-built_in">--get</span> <span class="hljs-string">https</span>.<span class="hljs-string">proxy</span><br></code></pre></td></tr></table></figure>
+
+<h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><ul>
 <li><strong>Hexo Docs</strong>：<a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/">https://hexo.io/zh-cn/docs/</a></li>
 <li><strong>Hexo Fluid 用户手册</strong>：<a target="_blank" rel="noopener" href="https://fluid-dev.github.io/hexo-fluid-docs/">https://fluid-dev.github.io/hexo-fluid-docs/</a></li>
 <li><a target="_blank" rel="noopener" href="https://xie.infoq.cn/article/ac51ce1f6e9434779c35cbb6c">白嫖GitHub Pages，轻松搭建个人博客_Hexo_LigaAI_InfoQ写作社区</a></li>
 <li><a target="_blank" rel="noopener" href="https://github.com/hexojs/awesome-hexo">hexojs&#x2F;awesome-hexo: A curated list of awesome things related to Hexo (github.com)</a></li>
+<li><a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/636418854">解决 Github port 443 : Timed out - 知乎 (zhihu.com)</a></li>
 </ul>
 
                 
@@ -298,6 +318,27 @@
             <hr/>
             <div>
               <div class="post-metas my-3">
+  
+    <div class="post-meta mr-3 d-flex align-items-center">
+      <i class="iconfont icon-category"></i>
+      
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/%E5%A4%A9%E5%B7%A5%E5%BC%80%E7%89%A9/" class="category-chain-item">天工开物</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
+    </div>
   
   
     <div class="post-meta">
